@@ -1,0 +1,51 @@
+.header-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 16px 24px;
+    background-color: grey;
+}
+.dashboard {
+    font-size: 40px;
+}
+.container {
+    display:flex;
+    gap: 16px;
+    padding-bottom: 30px;
+}
+.visitors {
+    height: 206px;
+    width: 304px;
+    background-color: grey;
+}
+.sales {
+    height: 206px;
+    width: 304px;
+    background-color: grey;
+}
+.container2 {
+    display:flex;
+    gap: 16px;
+    padding-bottom: 30px;
+}
+.products {
+    height: 206px;
+    width: 304px;
+    background-color: grey;
+}
+.overview {
+    height: 206px;
+    width: 304px;
+    background-color: grey;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: grey;
+}
+.message {
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+}

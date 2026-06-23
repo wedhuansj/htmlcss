@@ -1,0 +1,42 @@
+.header-box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 16px 24px;
+    background-color: grey;
+}
+.title {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.container .box {
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+}
+.container2 {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.container2 .box {
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: grey;
+}
+.message {
+    justify-content: flex-end;
+    width: 100%;
+    text-align: right;
+}

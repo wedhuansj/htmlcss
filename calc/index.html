@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+        <input type="text" id="res" readonly value="0">
+        <div class="grid">
+            <button class="op" onclick="f('CE')">CE</button>
+            <button class="op" onclick="f('C')">C</button>
+            <button class="op" onclick="f('⌫')">⌫</button>
+            <button class="op" onclick="f('/')">/</button>
+            <button onclick="f('7')">7</button>
+            <button onclick="f('8')">8</button>
+            <button onclick="f('9')">9</button>
+            <button class="op" onclick="f('*')">×</button>
+            <button onclick="f('4')">4</button>
+            <button onclick="f('5')">5</button>
+            <button onclick="f('6')">6</button>
+            <button class="op" onclick="f('-')">-</button>
+            <button onclick="f('1')">1</button>
+            <button onclick="f('2')">2</button>
+            <button onclick="f('3')">3</button>
+            <button class="op" onclick="f('+')">+</button>
+            <button id="zero" onclick="f('0')">0</button>
+            <button id="eq" onclick="f('=')">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
